@@ -1,11 +1,11 @@
 node {
     stage('Build') {
-        echo 'Building....'
+        echo 'App Building....'
     }
     stage('Test') {
-        echo 'Testing....'
+        echo 'App Testing....'
     }
     stage('Deploy') {
-        echo 'Deploying....'
+        echo 'App Deploying....'
     }
 }

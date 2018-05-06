@@ -6,6 +6,6 @@ node {
         echo 'App Testing....'
     }
     stage('Deploy') {
-        echo 'App Deploying....'
+        echo 'New App Deploying....'
     }
 }

@@ -4,7 +4,7 @@ node {
 	def a = 10;
 	def b = 20;
     stage('Build') {
-	echo new MathFunctions().Add(a,b)	
+	println(new MathFunctions().Add(a,b));	
         echo 'App Building....'
     }
     stage('Test') {

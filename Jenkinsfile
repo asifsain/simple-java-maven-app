@@ -3,6 +3,7 @@ node {
         echo 'App Building....'
     }
     stage('Test') {
+	println("Hey There !!");
         echo 'App Testing....'
     }
     stage('Deploy') {
